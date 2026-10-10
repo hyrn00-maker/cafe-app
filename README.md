@@ -1,7 +1,6 @@
 
 # CafeSnap ☕
 
-## GitHubリポジトリ
 https://github.com/hyrn00-maker/cafe-app
 
 カフェチェーンの情報を簡単に探せるWebアプリです！
