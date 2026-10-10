@@ -1,0 +1,79 @@
+
+#root {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+body {
+  margin: 0;
+  background-color: #fff8f0;
+  color: #4b382c;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #76513b;
+  font-size: 36px;
+  text-align: center;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #d6c2b0;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+a {
+  color: #a36b48;
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+main {
+  text-align: center;
+}
+
+.cafe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.cafe-card {
+  background: white;
+  border-radius: 18px;
+  padding: 25px 20px;
+  box-shadow: 0 4px 15px rgba(80, 50, 30, 0.1);
+  text-align: center;
+}
+
+.cafe-icon {
+  font-size: 40px;
+}
+
+.cafe-card h3 {
+  color: #76513b;
+  margin-bottom: 10px;
+}
+
+.cafe-card p {
+  color: #78685e;
+  line-height: 1.7;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #998477;
+}
